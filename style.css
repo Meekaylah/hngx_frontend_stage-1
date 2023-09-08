@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background: #FFFAD1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imageHalf{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#img{
+    max-width: 50vw;
+    max-height: 100vh;
+}
+
+.wordsHalf{
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slackUserName{
+    color: #000;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#myTrack{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#githubURL{
+    text-align: center;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+#dateAndTime{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
