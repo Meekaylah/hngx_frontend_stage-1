@@ -4,7 +4,7 @@ function updateDayOfTheWeek() {
     const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     const dayName = dayNames[dayOfTheWeekNumber];
 
-    const utcTime = currentDate.getTime();
+    const utcTime = currentDate.toISOString();
 
     const dayOfTheWeekElement = document.getElementById('currentDayOfTheWeek');
     dayOfTheWeekElement.textContent = `${dayName}`;
