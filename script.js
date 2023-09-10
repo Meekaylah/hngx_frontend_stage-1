@@ -13,4 +13,3 @@ function updateDayOfTheWeek() {
 }
 
 updateDayOfTheWeek();
-setInterval(updateDayOfTheWeek, 1000)
